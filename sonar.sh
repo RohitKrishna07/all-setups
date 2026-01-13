@@ -2,6 +2,9 @@
 #Launch an instance with 9000 and t2.medium
 cd /opt/
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.6.50800.zip
+
+Latest version sonarQube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.89743.zip
 unzip sonarqube-8.9.6.50800.zip
 amazon-linux-extras install java-openjdk11 -y
 useradd sonar
